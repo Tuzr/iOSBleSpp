@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3EE8A81E30C1C00083FA0C /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3EE8A71E30C1C00083FA0C /* CoreBluetooth.framework */; };
 		AB63AA5F1E2DB43C00376D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63AA5E1E2DB43C00376D41 /* main.m */; };
 		AB63AA621E2DB43C00376D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63AA611E2DB43C00376D41 /* AppDelegate.m */; };
-		AB63AA651E2DB43C00376D41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63AA641E2DB43C00376D41 /* ViewController.m */; };
-		AB63AA681E2DB43D00376D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB63AA661E2DB43D00376D41 /* Main.storyboard */; };
+		AB63AA651E2DB43C00376D41 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63AA641E2DB43C00376D41 /* MainViewController.m */; };
 		AB63AA6A1E2DB43D00376D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB63AA691E2DB43D00376D41 /* Assets.xcassets */; };
-		AB63AA6D1E2DB43D00376D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB63AA6B1E2DB43D00376D41 /* LaunchScreen.storyboard */; };
 		AB63AA781E2DB43E00376D41 /* BleSppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63AA771E2DB43E00376D41 /* BleSppTests.m */; };
 		AB63AA831E2DB43E00376D41 /* BleSppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB63AA821E2DB43E00376D41 /* BleSppUITests.m */; };
 /* End PBXBuildFile section */
@@ -35,15 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB3EE8A71E30C1C00083FA0C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		AB63AA5A1E2DB43C00376D41 /* BleSpp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleSpp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB63AA5E1E2DB43C00376D41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB63AA601E2DB43C00376D41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB63AA611E2DB43C00376D41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB63AA631E2DB43C00376D41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB63AA641E2DB43C00376D41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB63AA671E2DB43D00376D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB63AA631E2DB43C00376D41 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AB63AA641E2DB43C00376D41 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		AB63AA691E2DB43D00376D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB63AA6C1E2DB43D00376D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB63AA6E1E2DB43D00376D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB63AA731E2DB43E00376D41 /* BleSppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleSppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB63AA771E2DB43E00376D41 /* BleSppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BleSppTests.m; sourceTree = "<group>"; };
@@ -58,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3EE8A81E30C1C00083FA0C /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB3EE8A61E30C1C00083FA0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB3EE8A71E30C1C00083FA0C /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB63AA511E2DB43C00376D41 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +92,7 @@
 				AB63AA761E2DB43E00376D41 /* BleSppTests */,
 				AB63AA811E2DB43E00376D41 /* BleSppUITests */,
 				AB63AA5B1E2DB43C00376D41 /* Products */,
+				AB3EE8A61E30C1C00083FA0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +111,9 @@
 			children = (
 				AB63AA601E2DB43C00376D41 /* AppDelegate.h */,
 				AB63AA611E2DB43C00376D41 /* AppDelegate.m */,
-				AB63AA631E2DB43C00376D41 /* ViewController.h */,
-				AB63AA641E2DB43C00376D41 /* ViewController.m */,
-				AB63AA661E2DB43D00376D41 /* Main.storyboard */,
+				AB63AA631E2DB43C00376D41 /* MainViewController.h */,
+				AB63AA641E2DB43C00376D41 /* MainViewController.m */,
 				AB63AA691E2DB43D00376D41 /* Assets.xcassets */,
-				AB63AA6B1E2DB43D00376D41 /* LaunchScreen.storyboard */,
 				AB63AA6E1E2DB43D00376D41 /* Info.plist */,
 				AB63AA5D1E2DB43C00376D41 /* Supporting Files */,
 			);
@@ -208,6 +214,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = T5WKK2G8AV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					AB63AA721E2DB43E00376D41 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -248,9 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB63AA6D1E2DB43D00376D41 /* LaunchScreen.storyboard in Resources */,
 				AB63AA6A1E2DB43D00376D41 /* Assets.xcassets in Resources */,
-				AB63AA681E2DB43D00376D41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB63AA651E2DB43C00376D41 /* ViewController.m in Sources */,
+				AB63AA651E2DB43C00376D41 /* MainViewController.m in Sources */,
 				AB63AA621E2DB43C00376D41 /* AppDelegate.m in Sources */,
 				AB63AA5F1E2DB43C00376D41 /* main.m in Sources */,
 			);
@@ -311,25 +320,6 @@
 			targetProxy = AB63AA7F1E2DB43E00376D41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		AB63AA661E2DB43D00376D41 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB63AA671E2DB43D00376D41 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AB63AA6B1E2DB43D00376D41 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB63AA6C1E2DB43D00376D41 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AB63AA851E2DB43E00376D41 /* Debug */ = {
@@ -423,7 +413,6 @@
 		AB63AA881E2DB43E00376D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5WKK2G8AV;
 				INFOPLIST_FILE = BleSpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -435,7 +424,6 @@
 		AB63AA891E2DB43E00376D41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T5WKK2G8AV;
 				INFOPLIST_FILE = BleSpp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -513,6 +501,7 @@
 				AB63AA891E2DB43E00376D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB63AA8A1E2DB43E00376D41 /* Build configuration list for PBXNativeTarget "BleSppTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +510,7 @@
 				AB63AA8C1E2DB43E00376D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB63AA8D1E2DB43E00376D41 /* Build configuration list for PBXNativeTarget "BleSppUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +519,7 @@
 				AB63AA8F1E2DB43E00376D41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
